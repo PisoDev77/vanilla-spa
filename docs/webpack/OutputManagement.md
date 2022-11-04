@@ -19,12 +19,12 @@ entry: {
   },
 ```
 
-### 이렇게 자바스크립트 파일들을 각각 모듈화해서 빌드할 수 있지만..
+## 이렇게 자바스크립트 파일들을 각각 모듈화해서 빌드할 수 있지만..
 
 - 만약 entry 안에 index와 print 파일명이 변한다면?
 - 이럴 때 html은 정적이라 변하지 않는 파일명을 가진다. 이를 해결하기 위해 `HtmlWebpackPlugin`을 사용한다.
 
-### HtmlWebpackPlugin
+## HtmlWebpackPlugin
 
 ```shell
 npm i -D html-webpack-plugin
@@ -51,7 +51,7 @@ module.exports = {
 };
 ```
 
-### Cleaning up /dist folder
+## Cleaning up /dist folder
 
 ```javascript
 output: {
